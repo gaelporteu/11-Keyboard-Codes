@@ -16,6 +16,11 @@ body {
     background-color: #e1e1e1;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 .key {
     border: 1px solid #999999;
     background-color: #eeeeee;
@@ -39,4 +44,9 @@ body {
     width: 100%;
     color: #555;
     font-size: 14px;
+}
+
+.container > small {
+    margin: 30px;
+    opacity: .5;
 }
